@@ -1,13 +1,11 @@
 <?php
-$host = getenv("MYSQLHOST");
-$user = getenv("MYSQLUSER");
-$password = getenv("MYSQLPASSWORD");
-$db = getenv("MYSQLDATABASE");
-$port = getenv("MYSQLPORT");
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "academiaplus";
 
-$conn = new mysqli($host, $user, $password, $db, $port);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+$conn = new mysqli($host,$user,$pass,$db);
+if($conn->connect_error){
+    echo "Failed to connect DB".$conn->connect_error;
 }
 ?>

@@ -1,0 +1,20 @@
+FROM php:8.2-apache
+
+# Enable Apache Rewrite Module
+RUN a2enmod rewrite
+
+# Install PHP extensions for MySQL
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+
+WORKDIR /var/www/html
+
+# Copy project files
+COPY . .
+
+# Set permissions for uploads and submissions
+RUN chown -R www-data:www-data uploads submissions
+
+# Expose port
+EXPOSE 80
+
+CMD ["apache2-foreground"]
