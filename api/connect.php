@@ -1,13 +1,13 @@
 <?php
-$host = getenv("DB_HOST") ?: "localhost";
-$user = getenv("DB_USER") ?: "root";
-$pass = getenv("DB_PASS") ?: "";
-$db   = getenv("DB_NAME") ?: "academiaplus";
+$host = getenv("MYSQLHOST");
+$user = getenv("MYSQLUSER");
+$password = getenv("MYSQLPASSWORD");
+$db = getenv("MYSQLDATABASE");
+$port = getenv("MYSQLPORT");
 
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli($host, $user, $password, $db, $port);
 
-// Cek koneksi
 if ($conn->connect_error) {
-    die("Failed to connect DB: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
