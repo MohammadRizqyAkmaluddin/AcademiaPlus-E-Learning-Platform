@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Waktu pembuatan: 14 Jun 2025 pada 16.01
+-- Waktu pembuatan: 24 Sep 2025 pada 07.04
 -- Versi server: 9.1.0
 -- Versi PHP: 8.3.14
 
@@ -1213,12 +1213,11 @@ CREATE TABLE IF NOT EXISTS `student` (
 --
 
 INSERT INTO `student` (`studentID`, `name`, `phoneNumber`, `address`, `DOB`, `gender`, `status`, `email`, `password`, `studentImage`) VALUES
-('S01', 'Christiano Ronaldo', '81908196194', 'RT.5/RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110', '2004-08-29', 'Male', 'Employee', 'ronaldo@gmail.com', '$2y$10$bI2b0qUp4kq4d/dL/C0Auu66FOTlrEftNMUbFEA2AbfYeLmGHDXMS', 'S01.png'),
+('S01', 'Mohammad Rizqy Akmaluddin', '81908196194', 'RT.5/RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110', '2004-08-29', 'Male', 'Employee', 'rizqy@gmail.com', '$2y$10$uECe4Ijg7/j/pORYrxJp4eWbglJpZQrVbSQFDa/IOsofHrg1HlJ0i', 'S01.jpg'),
 ('S02', 'Marteen Paes', '88912345678', 'Avenida de Concha Espina No. 1, Apartemen 12B, Chamartín, Madrid, Comunidad de Madrid, 28036, Spanyol', '2000-07-12', 'Male', 'Student', 'paes@gmail.com', '$2y$10$NLt.XfIcCAayOpIUOZ25BO5NrO0geORA/KsQqdrelvQV8LzM8Sxma', 'S02.png'),
 ('S03', 'Emil Audero', '87323456789', 'Calle de Serrano No. 45, Lantai 5, Salamanca, Madrid, Comunidad de Madrid', '2003-06-29', 'Male', 'Student', 'audero@gmail.com', '$2y$10$GgNSzAgQVF9x.p2vXHDCJuC26aduhPnrOh6e9ik2i2Eyhg2OOo.3C', 'S03.png'),
 ('S04', 'Ragnar Oratmangoen', '82134567890', 'Calle de Velázquez No. 120, Blok C, Apartemen 8A, Chamartín, Madrid, Comunidad de Madrid, 28006, Spanyol', '2001-01-09', 'Male', 'Student', 'oratmangoen@gmail.com', '$2y$10$q2l2k7W0fbeodKT5TV.u/O8iai8gdsyCP2/L33tcI8eRzE1U3zVdK', 'S04.png'),
-('S05', 'Marselino Ferdinan', '89145678901', 'Paseo de la Castellana No. 200, Lantai 10, Tetuán, Madrid, Comunidad de Madrid, 28046, Spanyol', '1990-01-04', 'Male', 'Employee', 'ferdinan@gmail.com', '$2y$10$ujXdEgS7b5eQqfb621g/y.Z78MW0kgtINTH9pgfHXcB.qDFpoDHG2', 'S05.png'),
-('S06', 'dawda', '2121', 'dawda', '2004-03-12', 'Male', 'Employee', 'wadaw@gmail.com', '$2y$10$WJDD1jnHdr.6QxhapmVmY.d2Tplv5CMSh0WnM7SvRPjZcsWQhPqkK', NULL);
+('S05', 'Marselino Ferdinan', '89145678901', 'Paseo de la Castellana No. 200, Lantai 10, Tetuán, Madrid, Comunidad de Madrid, 28046, Spanyol', '1990-01-04', 'Male', 'Employee', 'ferdinan@gmail.com', '$2y$10$ujXdEgS7b5eQqfb621g/y.Z78MW0kgtINTH9pgfHXcB.qDFpoDHG2', 'S05.png');
 
 -- --------------------------------------------------------
 
