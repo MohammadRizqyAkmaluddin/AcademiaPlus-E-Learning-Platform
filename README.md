@@ -87,8 +87,8 @@ The database is designed to support scalable e-learning workflows:
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/academia-plus.git
-cd academia-plus
+git clone https://github.com/MohammadRizqyAkmaluddin/AcademiaPlus-E-Learning-Platform.git
+cd AcademiaPlus-E-Learning-Platform
 
 # import database
 # import academia_plus.sql into MySQL
